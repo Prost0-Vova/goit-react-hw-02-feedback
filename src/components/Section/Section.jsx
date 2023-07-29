@@ -8,7 +8,7 @@ const Section = ({ title, children }) => {
   </Container>;
 };
 
-Section.PropTypes = {
+Section.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node,
 };
