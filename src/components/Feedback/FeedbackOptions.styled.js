@@ -1,8 +1,9 @@
 import styled from "@emotion/styled";
 
 export const Button = styled.button`
+margin-right:20px;
   padding: 5px 15px;
-  border-radius: 4px;
+  
  
   &:not(:last-child) {
     margin-right: 10px;
@@ -10,7 +11,7 @@ export const Button = styled.button`
 
   :hover,
   :focus {
-    background-color: #b770a0;
+    background-color: lightblue;
     color: white;
     transition: all 0.2s;
   }

@@ -1,14 +1,15 @@
 import PropTypes from 'prop-types';
 
 
-const Notafication = ({ message = '' }) => {
+const Notification = ({ message = '' }) => {
+  return(
   <>
     <p>{message}</p>
-  </>;
+  </>)
 };
 
-Notafication.propTypes = {
+Notification.propTypes = {
   message: PropTypes.string.isRequired,
 };
 
-export default Notafication;
+export default Notification;
