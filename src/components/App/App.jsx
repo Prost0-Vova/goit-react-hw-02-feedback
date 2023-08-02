@@ -13,7 +13,6 @@ class App extends Component {
 
   handleFeedback = option => {
     this.setState(prevState => ({
-      ...prevState,
       [option]: prevState[option] + 1,
     }));
   };
